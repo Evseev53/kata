@@ -14,6 +14,10 @@
     url(fonts/TTLakes-Bold.woff) format("woff");
 }
 
+@media all {
+
+}
+
 .body {
     margin: 0;
     width: 320px;
