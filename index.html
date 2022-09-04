@@ -8,34 +8,51 @@
 </head>
 <body class="body">
 <header class="header">
-    <button class="header__button button-burger"><img src="img/burger.svg" alt=""></button>
-    <img class="header__logo" src="img/logo.svg" alt="">
-    <img class="header__divider" src="img/divider.svg" alt="">
-    <button class="header__button button-repair"><img src="img/repair.svg" alt=""></button>
-    <button class="header__button button-checkstatus"><img src="img/checkstatus.svg" alt=""></button>
+    <div class="header__menu">
+        <button class="button"><img src="img/burger.svg" alt=""></button>
+        <img class="header__logo" src="img/logo.svg" alt="">
+    </div>
+    <div class="topbars">
+        <div class="topbar-768px">
+            <button class="button"><img src="img/call.svg" alt=""></button>
+            <button class="button"><img src="img/chat.svg" alt=""></button>
+            <button class="button"><img src="img/profile.svg" alt=""></button>
+        </div>
+        <div class="topbar">
+            <img class="topbar__divider" src="img/divider.svg" alt="">
+            <button class="button"><img src="img/repair.svg" alt=""></button>
+            <button class="button"><img src="img/checkstatus.svg" alt=""></button>
+        </div>
+    </div>
 </header>
 <main class="main">
-    <div class="main__title">
+    <div class="title">
         <img class="title__highlight" src="img/highlight.svg" alt="">
         <h1 class="title__h1">Услуги и сервисы</h1>
     </div>
-    <section class="content">
-        <div class="content__menu">
-            <a class="menu__link" href="#"><span class="menu__text text1">Ремонтируемые устройства</span></a>
-            <a class="menu__link" href="#"><span class="menu__text">Ремонтируемые бренды</span></a>
-            <a class="menu__link" href="#"><span class="menu__text">Цены на услуги</span></a>
-            <a class="menu__link" href="#"><span class="menu__text">Адреса сервисных центров</span></a>
-            <a class="menu__link" href="#"><span class="menu__text">Специальные цены</span></a>
-        </div>
-        <article class="content__text">
-            <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-                Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-            <button class="content__button"><img class="content__img" src="img/icon4button.svg" alt="">Читать дальше</button>
-        </article>
-    </section>
-    <section>
-        <img class="img-cps" src="img/_MG_3223.png" alt="">
-    </section>
+    <div class="menu">
+        <a class="menu__link" href="#"><span class="menu__text">Ремонтируемые устройства</span></a>
+        <a class="menu__link" href="#"><span class="menu__text">Ремонтируемые бренды</span></a>
+        <a class="menu__link" href="#"><span class="menu__text">Цены на услуги</span></a>
+        <a class="menu__link" href="#"><span class="menu__text">Адреса сервисных центров</span></a>
+        <a class="menu__link" href="#"><span class="menu__text">Специальные цены</span></a>
+    </div>
+    <div class="for-768">
+        <section class="content">
+            <article class="content__text">
+                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+
+                    <span class="content__span-1">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>,
+                    <span class="content__span-2"> что подтверждает большое количество постоянных клиентов. Мы гордимся тем,что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
+                    <button class="content__button"><img class="content__img" src="img/icon4button.svg" alt="">Читать дальше</button>
+            </article>
+        </section>
+        <section>
+            <img class="img-cps" src="img/_MG_3223.png" alt="">
+        </section>
+    </div>
+
 </main>
 </body>
 </html>
